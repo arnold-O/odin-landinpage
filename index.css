@@ -131,7 +131,62 @@ button{
 
 
 .reviewSection-Container{
-    background-color: grey;
-    height: 200px;
+    background-color: #e5e7eb;
+    height: 300px;
 }
 
+.reviewTitle-container p{
+    width: 700px;
+    margin: 0px;
+    font-size: 24px;
+    /* height: 200px; */
+
+}
+
+.reviewTitle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     max-width: 800px;
+     height: 250px;
+    
+    
+    margin:  0 auto;
+    margin-top: 15px;
+    
+}
+
+.nameOfCustumer{
+    max-width: 600px;
+    margin:  0 auto;
+    display: flex;
+    justify-content: end;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.footerSection-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 800px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: #3882f3;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: #f9f4f8;
+}
+
+.footerSignup-btn{
+width: 120px;
+height: 30px;
+}
+.footerSignup-btn button{
+    background-color: #3882f3;
+    border: 1px solid #f9f4f8;
+    width: 100%;
+    height: auto;
+   
+
+}
